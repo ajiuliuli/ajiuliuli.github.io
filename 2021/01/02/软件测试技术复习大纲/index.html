@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives | Hexo</title>
+  <title>软件测试技术复习大纲 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+  <meta name="description" content="第一章 引论软件测试的必要性">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软件测试技术复习大纲">
+<meta property="og:url" content="http://example.com/2021/01/02/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一章 引论软件测试的必要性">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-01-02T14:20:14.000Z">
+<meta property="article:modified_time" content="2021-01-02T11:34:13.309Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -150,157 +154,1034 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-软件测试技术复习大纲" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      软件测试技术复习大纲
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/02/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/" class="archive-article-date">
+
+        
+        <a href="/2021/01/02/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/" class="archive-article-date">
   	<time datetime="2021-01-02T14:20:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-02</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/02/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/">软件测试技术复习大纲</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="第一章-引论"><a href="#第一章-引论" class="headerlink" title="第一章 引论"></a>第一章 引论</h2><h3 id="软件测试的必要性"><a href="#软件测试的必要性" class="headerlink" title="软件测试的必要性"></a>软件测试的必要性</h3><a id="more"></a>
 
-        <div class="article-info info-on-right">
-          
-          
+<ul>
+<li>无论如何，软件开发的过程中必然会存在错误和问题，每个阶段，每个过程都存在软件测试工作，其目的是为了检验每一个阶段是否符合预期，为了尽早地发现和修正错误。</li>
+</ul>
+<h3 id="软件测试的重要性"><a href="#软件测试的重要性" class="headerlink" title="软件测试的重要性"></a>软件测试的重要性</h3><ul>
+<li>产品质量的保证</li>
+<li>控制成本的关键</li>
+<li>软件可靠性确认</li>
+<li>核心竞争力的保证</li>
+</ul>
+<h3 id="什么是软件测试"><a href="#什么是软件测试" class="headerlink" title="什么是软件测试"></a>什么是软件测试</h3><ul>
+<li>软件测试是提高软件产品质量的重要手段</li>
+</ul>
+<h3 id="测试与开发的关系"><a href="#测试与开发的关系" class="headerlink" title="测试与开发的关系"></a>测试与开发的关系</h3><ul>
+<li><p>瀑布模型</p>
+<ul>
+<li>瀑布模型中，测试处于编程的下游，与软件开发的迭代思想、敏捷开发相冲突，不符合当今软件工程的实际需求。</li>
+</ul>
+</li>
+<li><p>V模型</p>
+<ul>
+<li><p>软件测试贯穿了整个软件的生命周期，==避免了测试在代码完成之后进行。==</p>
+</li>
+<li><p>软件验证的4个层次：</p>
+<ul>
+<li>需求验证对应验收测试，客户需求的确认测试</li>
+<li>系统架构设计的验证对应系统非功能性测试</li>
+<li>产品详细设计的验证对应系统的功能性测试</li>
+<li>代码的验证对应单元测试与集成测试</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="测试和质量保证的关系"><a href="#测试和质量保证的关系" class="headerlink" title="测试和质量保证的关系"></a>测试和质量保证的关系</h3><ul>
+<li>对过程进行管理与控制是提高产品质量的一个重要途径。</li>
+<li>SQA：软件质量保证</li>
+<li>==软件测试是SQA重要手段之一，为SQA提供所需的数据，作为质量评价的客观依据。==</li>
+<li>SQA与软件测试的异同：<ul>
+<li>二者都是贯穿整个软件生命周期的流程；</li>
+<li>==SQA是一项管理工作；==</li>
+<li>==测试是一项技术性的工作。==</li>
+</ul>
+</li>
+</ul>
+<h3 id="第一章测试习题"><a href="#第一章测试习题" class="headerlink" title="第一章测试习题"></a>第一章测试习题</h3><ul>
+<li>如采用最新的技术和工具，开发出来的软件就没有错误和问题。<ul>
+<li>==错==</li>
+</ul>
+</li>
+<li>在软件系统开发完成之前，软件测试就已经开始了。<ul>
+<li>==对==</li>
+</ul>
+</li>
+<li>测试的（）观点是以最小的代价获得最高的产品质量。<ul>
+<li>==经济==</li>
+</ul>
+</li>
+<li>（）的误区是：软件测试是在代码完成之后进行的。<ul>
+<li>==瀑布模型==</li>
+</ul>
+</li>
+<li>（）是通过对软件产品有计划地进行评审和审计来验证软件是否合乎标准的系统工程。<ul>
+<li>==软件质量保证==</li>
+</ul>
+</li>
+<li>测试驱动开发的思想是（）<ul>
+<li>==测试在先，编码在后==</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第二章-软件测试的基本概念"><a href="#第二章-软件测试的基本概念" class="headerlink" title="第二章 软件测试的基本概念"></a>第二章 软件测试的基本概念</h2><ul>
+<li>==软件测试是软件质量保证的手段==</li>
+</ul>
+<h3 id="软件缺陷"><a href="#软件缺陷" class="headerlink" title="软件缺陷"></a>软件缺陷</h3><ul>
+<li>缺陷是质量的对立面，相对于质量而存在</li>
+<li>==内部质量-&gt;外部质量-&gt;使用质量==</li>
+</ul>
+<h4 id="软件缺陷的定义"><a href="#软件缺陷的定义" class="headerlink" title="软件缺陷的定义"></a>软件缺陷的定义</h4><ul>
+<li>==从产品内部看==，软件缺陷是软件产品在开发和维护的过程中存在的各种错误；</li>
+<li>==从产品外部看==，软件缺陷是系统所需要实现的某种功能的==失效或违背==。</li>
+</ul>
+<h4 id="软件缺陷的产生"><a href="#软件缺陷的产生" class="headerlink" title="软件缺陷的产生"></a>软件缺陷的产生</h4><ul>
+<li>技术问题</li>
+<li>软件本身</li>
+<li>团队工作</li>
+</ul>
+<h4 id="软件缺陷的构成"><a href="#软件缺陷的构成" class="headerlink" title="软件缺陷的构成"></a>软件缺陷的构成</h4><ul>
+<li>需求：41%，初步设计：12%；设计：24%，代码：23%</li>
+</ul>
+<h4 id="不同阶段修复缺陷的成本"><a href="#不同阶段修复缺陷的成本" class="headerlink" title="不同阶段修复缺陷的成本"></a>不同阶段修复缺陷的成本</h4><ul>
+<li>随着项目的进行，==越往后，修复缺陷的成本越高==。</li>
+<li>指导意义：<ul>
+<li>软件测试尽早介入项目；</li>
+<li>缺陷发现或解决的越迟，其成本就越高。</li>
+</ul>
+</li>
+</ul>
+<h3 id="软件测试的分类"><a href="#软件测试的分类" class="headerlink" title="软件测试的分类"></a>软件测试的分类</h3><h4 id="按测试的阶段或层次分类："><a href="#按测试的阶段或层次分类：" class="headerlink" title="按测试的阶段或层次分类："></a>按测试的阶段或层次分类：</h4><ul>
+<li>单元测试</li>
+<li>集成测试</li>
+<li>系统测试</li>
+<li>验收测试</li>
+</ul>
+<h4 id="按测试的方法分类："><a href="#按测试的方法分类：" class="headerlink" title="按测试的方法分类："></a>按测试的方法分类：</h4><ul>
+<li>白盒测试</li>
+<li>黑盒测试</li>
+</ul>
+<h4 id="按目标-特性分类："><a href="#按目标-特性分类：" class="headerlink" title="按目标/特性分类："></a>按目标/特性分类：</h4><ul>
+<li>功能测试</li>
+<li>强壮性测试</li>
+<li>性能测试</li>
+<li>适用性测试</li>
+<li>安全性测试</li>
+<li>可靠性测试</li>
+</ul>
+<h4 id="其他的测试分类参考第二章ppt第29页"><a href="#其他的测试分类参考第二章ppt第29页" class="headerlink" title="其他的测试分类参考第二章ppt第29页"></a>其他的测试分类参考第二章ppt第29页</h4><h3 id="主动测试和被动测试"><a href="#主动测试和被动测试" class="headerlink" title="主动测试和被动测试"></a>主动测试和被动测试</h3><h4 id="主动测试"><a href="#主动测试" class="headerlink" title="主动测试"></a>主动测试</h4><ul>
+<li>测试人员主动向被测试对象发送请求或数据，从而验证被测试对象的反应或者输出结果</li>
+</ul>
+<h4 id="被动测试"><a href="#被动测试" class="headerlink" title="被动测试"></a>被动测试</h4><ul>
+<li>==测试人员不干预产品的运行==，被动地监控产品在实际环境中的运行情况，通过一定的被动机制来获取系统运行的数据，包括输入、输出数据。</li>
+</ul>
+<h3 id="软件测试的级别"><a href="#软件测试的级别" class="headerlink" title="软件测试的级别"></a>软件测试的级别</h3><p>==下面的四个测试是基本和必要的测试，最好单独进行，在特殊情况下，可以将单元测试和集成测试合并，系统测试和验收测试合并。==</p>
+<h4 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h4><ul>
+<li>针对程序系统中的==最小单元==进行测试；</li>
+<li>主要采用==白盒测试==方法；</li>
+<li>通常编写驱动模块和桩模块。</li>
+</ul>
+<h4 id="集成测试"><a href="#集成测试" class="headerlink" title="集成测试"></a>集成测试</h4><ul>
+<li>也称组装测试、联合测试；</li>
+<li>在单元测试的基础上，将模块按照设计要求组装起来进行测试；</li>
+<li>==主要目标是发现单元之间的接口问题；==</li>
+<li>两种集成方式：<ul>
+<li>一次性集成方式；</li>
+<li>渐增式集成方式。</li>
+</ul>
+</li>
+</ul>
+<h4 id="系统测试"><a href="#系统测试" class="headerlink" title="系统测试"></a>系统测试</h4><ul>
+<li>系统功能测试：<ul>
+<li>针对应用系统进行测试</li>
+<li>基于==产品功能说明书==，从==用户角度==来进行功能验证，以确认每个功能是否都能正常使用</li>
+</ul>
+</li>
+<li>系统非功能测试：<ul>
+<li>将软件放在实际环境或者模拟实际环境的条件下进行测试</li>
+<li>负载测试</li>
+<li>性能测试</li>
+<li>灾难恢复性测试</li>
+<li>安全测试</li>
+<li>可靠性测试</li>
+</ul>
+</li>
+</ul>
+<h4 id="验收测试"><a href="#验收测试" class="headerlink" title="验收测试"></a>验收测试</h4><ul>
+<li>目的：向未来的用户表明系统能够向预定要求的那样工作，验证软件的功能和性能如同用户所==合理期待==的那样。</li>
+<li>基于==需求规格说明书和用户信息==，验证软件的功能和性能以及其他特性。</li>
+</ul>
+<h4 id="α、β测试"><a href="#α、β测试" class="headerlink" title="α、β测试"></a>α、β测试</h4><ul>
+<li>Alpha测试：软件开发公司内部人员进行测试；</li>
+<li>Beta测试：软件开发公司外部典型用户进行测试。</li>
+</ul>
+<h3 id="软件测试计划和测试用例"><a href="#软件测试计划和测试用例" class="headerlink" title="软件测试计划和测试用例"></a>软件测试计划和测试用例</h3><h4 id="软件测试过程："><a href="#软件测试过程：" class="headerlink" title="软件测试过程："></a>软件测试过程：</h4><ul>
+<li>工程过程：需求评审、设计评审、单元测试、集成测试、系统测试、验收测试。</li>
+<li>管理过程：计划、设计、执行。</li>
+<li>==测试用例是测试设计的产物==。</li>
+</ul>
+<h4 id="测试工作流程：第二章ppt46页"><a href="#测试工作流程：第二章ppt46页" class="headerlink" title="测试工作流程：第二章ppt46页"></a>测试工作流程：第二章ppt46页</h4><h4 id="测试计划"><a href="#测试计划" class="headerlink" title="测试计划"></a>测试计划</h4><ul>
+<li>测试计划的基础是==测试需求分析==</li>
+<li>测试计划是一个==动态变换的过程==，随着情况的不断变化而进行调整</li>
+</ul>
+<h4 id="测试用例"><a href="#测试用例" class="headerlink" title="测试用例"></a>测试用例</h4><ul>
+<li>测试用例：为了特定的测试目的而设计的测试条件、测试数据以及与之相关的测试规程的一个特定的使用实例或者场景；</li>
+<li>测试脚本：测试工具执行的一组指令集合，使计算机能自动完成测试的执行。</li>
+<li>测试用例可以帮助实施有效的测试。</li>
+</ul>
+<h3 id="专业测试人员的责任和要求"><a href="#专业测试人员的责任和要求" class="headerlink" title="专业测试人员的责任和要求"></a>专业测试人员的责任和要求</h3><ul>
+<li>除单元测试和集成测试外，==其他测试主要由专业测试人员来完成==。</li>
+<li>==软件测试团队不能保证软件质量，产品的质量不是靠测出来的，而是靠 产品开发的所有人员共同努力来获得的==。</li>
+</ul>
+<h3 id="第二章测试习题"><a href="#第二章测试习题" class="headerlink" title="第二章测试习题"></a>第二章测试习题</h3><ul>
+<li>==软件缺陷出现最多的地方是（）==<ul>
+<li>需求</li>
+</ul>
+</li>
+<li>按测试目的进行分类，可以分为（）<ul>
+<li>压力测试、功能测试、性能测试、适用性测试、安全性测试、可靠性测试</li>
+</ul>
+</li>
+<li>（）是为了高效地、高质量地完成测试任务而做的==准备工作==，包括对工作量的估算、测试资源和进度安排、测试风险评估、测试策略制定等工作。<ul>
+<li>测试计划</li>
+</ul>
+</li>
+<li>专业测试人员的责任包括（）<ul>
+<li>尽早、尽可能地发现软件中的问题；对缺陷的根本原因进行分析、抽象出缺陷模式；改进测试方法。</li>
+<li>==注：第二章ppt54页==</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第三章-软件测试方法"><a href="#第三章-软件测试方法" class="headerlink" title="第三章 软件测试方法"></a>第三章 软件测试方法</h2><h3 id="黑盒测试和白盒测试"><a href="#黑盒测试和白盒测试" class="headerlink" title="黑盒测试和白盒测试"></a>黑盒测试和白盒测试</h3><h4 id="白盒测试："><a href="#白盒测试：" class="headerlink" title="白盒测试："></a>白盒测试：</h4><ul>
+<li>也称结构化测试或者逻辑驱动测试</li>
+<li>核心内容：==已知产品的内部工作过程，清楚内部结构，按照程序的内部结构测试程序==。</li>
+<li>基本原则：<ul>
+<li>考虑各个分支被覆盖；</li>
+</ul>
+</li>
+<li>局限性：<ul>
+<li>不可能穷举所有路径；</li>
+<li>不能检查出程序是否实现了用户不需要的功能；</li>
+<li>不能检查程序因遗漏路径而出错；</li>
+<li>发现不了与数据相关的异常错误。</li>
+</ul>
+</li>
+</ul>
+<h4 id="黑盒测试："><a href="#黑盒测试：" class="headerlink" title="黑盒测试："></a>黑盒测试：</h4><ul>
+<li>也称数据驱动测试方法</li>
+<li>核心内容：==将程序视作不能打开的黑盒子，在完全不考虑程序内部结构和内部特性的情况下进行测试==。</li>
+<li>局限型：<ul>
+<li>不可能穷举测试；</li>
+<li>覆盖率难以测定或者达到一定的水平后就难以提高。</li>
+</ul>
+</li>
+<li>单因素：等价类划分，边界值分析</li>
+<li>多因素：判定表法，因果图法，正交试验法</li>
+</ul>
+<h4 id="针对不同测试对象的4中组合："><a href="#针对不同测试对象的4中组合：" class="headerlink" title="针对不同测试对象的4中组合："></a>针对不同测试对象的4中组合：</h4><ul>
+<li>静态白盒测试方法；<ul>
+<li>对源程序代码进行语法检查、扫描、评审等。</li>
+</ul>
+</li>
+<li>动态白盒测试方法：<ul>
+<li>在单元测试中，一边运行代码，一边对结果进行检查、调试和验证等。</li>
+</ul>
+</li>
+<li>静态黑盒测试方法：<ul>
+<li>对需求文档、需求规格说明书等饿审查活动，一些非技术性文档的测试等。</li>
+</ul>
+</li>
+<li>动态黑盒测试方法：<ul>
+<li>在运行程序时，通过数据驱动对软件进行功能测试，从用户角度验证软件的各项功能。</li>
+</ul>
+</li>
+</ul>
+<h3 id="基于直觉和经验的方法"><a href="#基于直觉和经验的方法" class="headerlink" title="基于直觉和经验的方法"></a>基于直觉和经验的方法</h3><ul>
+<li>不是严格意义上的科学的测试方法，带有一定的随机性，结果不可靠。</li>
+</ul>
+<h3 id="基于输入域的方法"><a href="#基于输入域的方法" class="headerlink" title="基于输入域的方法"></a>基于输入域的方法</h3><ul>
+<li><p>等价类划分和边界值分析比较适合输入变量或输入条件相互独立的情况。</p>
+</li>
+<li><p>基于数据的输入和输出来判断功能能否正常运行。</p>
+</li>
+</ul>
+<h4 id="等价类划分的方法："><a href="#等价类划分的方法：" class="headerlink" title="等价类划分的方法："></a>等价类划分的方法：</h4><ul>
+<li>==注：我们不能对所有的情况进行穷举。==</li>
+<li>思想：用一组==有限的数据==去代表==无限的数据==</li>
+<li>等价类：<ul>
+<li>某个输入域的子集，在该子集中，每个输入的数据都是==等效==的。</li>
+<li>将需要测试的内容分类，选取有代表性的数据进行测试。</li>
+<li>意义：==测试的经济性==</li>
+</ul>
+</li>
+<li>有效等价类：<ul>
+<li>输入满足程序所要求的规范的输入的数据集合；</li>
+<li>检验程序是否满足规格所规定的功能和性能。</li>
+</ul>
+</li>
+<li>无效等价类：<ul>
+<li>输入不满足程序出入要求或者没有意义的数据集合；</li>
+<li>测试程序的容错性。</li>
+</ul>
+</li>
+<li>==设计测试程序的时候，要同时考虑这两种等价类==</li>
+<li>使用等价类划分来设计测试用例的过程：<ul>
+<li>建立等价类表，列出所有划分出的等价类（包括了有效和无效）</li>
+<li>为每个等价类规定一个唯一的编号</li>
+<li>设计一个测试用例，使其==尽可能多的覆盖有效等价类==</li>
+<li>设计一个测试用例，使其==只覆盖一个无效等价类==</li>
+</ul>
+</li>
+<li>等价类测试的原则：<ul>
+<li>在输入范围有规定时，至少可以确定一个有效等价类和两个无效等价类</li>
+<li>在输入要求中，出现了==必须干某事==这样的字眼时，可以确定至少有一个有效等价类和一个无效等价类</li>
+<li>在输入内容中，如果出现了一个==布尔型变量==，则至少有一个有效等价类和一个无效等价类</li>
+<li>在规定了一组输入数据（==类似于枚举==），则可以有n（规定的数量）个有效等价类和一个无效等价类</li>
+<li>在规定了==一组输入条件==后，则有一个有效等价类（满足所有要求）和若干（不满足任意要求）无效等价类</li>
+<li>若在某一个等价类中的数据有==不同的处理方式==，则将该等价类进行进一步的划分</li>
+</ul>
+</li>
+<li>举例1ppt47页（计算器的输入）</li>
+<li>举例2ppt55页（年份的输入）</li>
+<li>举例3ppt59页（准考证号的输入）</li>
+<li>举例4ppt61页（电话号码的输入）</li>
+<li>举例5ppt65页（三角形的判断）</li>
+<li>举例6ppt68页（ATM取款）</li>
+</ul>
+<h4 id="边界值分析的方法："><a href="#边界值分析的方法：" class="headerlink" title="边界值分析的方法："></a>边界值分析的方法：</h4><ul>
+<li>很多错误发生在输入或者输出的边界上，因此可以根据各种边界情况设置测试用例</li>
+<li>边界值分析也是一种==黑盒测试==方法</li>
+<li>定义：在某一个输入、输出的变量边界上，验证系统能否正常运行的测试方法</li>
+<li>边界值与等价类的关系：<ul>
+<li>边界值分析不是随便从等价类中挑一个作为代表，而是使用这个等价类的边界作为测试条件</li>
+<li>边界值分析不仅考虑输入条件，而且考虑输出条件</li>
+<li>==通常边界值分析是作为等价类分析的一种补充==</li>
+</ul>
+</li>
+<li>确定边界值的方法：<ul>
+<li>如果一个输入规定了范围，则其范围边上与刚刚超过该范围的值作为一组边界值</li>
+<li>如果输入条件规定了输入数据的个数，则测试用例为最大个数、最小个数、最大个数+1、最小个数-1</li>
+<li>设计测试用例，使其达到边界及其两边的值</li>
+<li>如果输入需求规格说明给出的是一组有序数列，则其边界为数列的第一个元素和最后一个元素<ul>
+<li>==注：16bit的整数：32767与-32768是其边界==</li>
+<li>==注：屏幕上的光标：左上与右下==</li>
+<li>==注：循环：第0次，第1次，倒数第2次，最后一次==</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>注：==到达边界的值是合理的输入，只要最少的测试数据即可；超出边界的值是不合理的输入，必须逐个检测==</li>
+<li>边界值分析常常和等价类划分一起使用，产生一套完整的测试用例</li>
+<li>举例1ppt23页（三角形问题）</li>
+<li>举例2ppt28页（NextDate函数）</li>
+<li>一些隐含的边界值：<ul>
+<li>数值运算的边界值</li>
+<li>2的乘方</li>
+<li>字符的边界值：<ul>
+<li>如果测试的文本框只接受输入字符A～Z和a～z，就应该在非法输入中包含@、【、‘、{几个字符</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>边界值通常存在于一个输入值从有效变为无效的那个点上</li>
+</ul>
+<h3 id="基于组合及其优化的方法"><a href="#基于组合及其优化的方法" class="headerlink" title="基于组合及其优化的方法"></a>基于组合及其优化的方法</h3><ul>
+<li>在实际应用中，许多输入是由多个因素构成的，而不是单一因素，这时就需要多因素组合分析</li>
+</ul>
+<h4 id="判定表法"><a href="#判定表法" class="headerlink" title="判定表法"></a>判定表法</h4><ul>
+<li><p>==判定表的叙述方式有着很强的if-then-else的感觉==</p>
+</li>
+<li><p>把作为条件的所有输入的各种组合值以及对应的输出值都罗列出来而形成的表格</p>
+</li>
+<li><p>判定表的组成：</p>
+<ul>
+<li>条件桩：列出问题的所有条件</li>
+<li>动作桩：列出问题可能采取的操作</li>
+<li>条件项：列出根据条件桩的取值</li>
+<li>动作项：列出在条件取值下应该采取的动作</li>
+<li>规则：一个条件的特定取值及其所采取的动作</li>
+</ul>
+</li>
+<li><p>判定表的简化：</p>
+<ul>
+<li>规则合并<ul>
+<li>两条规则只有一个条件不同，其余的条件和动作完全相同，则说明该动作与该条件无关，可以合并</li>
+</ul>
+</li>
+<li>规则包含<ul>
+<li>两条规则只有一个条件不同，而且该条件是“-”，则说明其包含另一个条件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>判定表法设计测试用例：</p>
+<ul>
+<li>列出所有的条件桩和动作桩</li>
+<li>确定规则个数<ul>
+<li>规则个数 = 2 ^ 条件个数</li>
+</ul>
+</li>
+<li>填入条件项、动作项</li>
+<li>简化判定表</li>
+<li>根据判定表设计测试用例</li>
+</ul>
+</li>
+<li><p>举例1ppt25页（三角形问题）</p>
+</li>
+<li><p>举例2ppt36页（机器维修问题）</p>
+</li>
+<li><p>举例3ppt43页（工资发放问题）</p>
+</li>
+</ul>
+<h4 id="因果图法"><a href="#因果图法" class="headerlink" title="因果图法"></a>因果图法</h4><ul>
+<li>利用图解法分析输入的各种组合情况，根据输入条件的组合、约束条件和输出的因果关系，设计测试用例。</li>
+<li>因果图设计测试用例思想：<ul>
+<li>从程序的规格说明书中找出因和果</li>
+<li>==因果图一般和判定表结合使用==</li>
+<li>==原因与结果之间的关系==：（ppt51页）<ul>
+<li>恒等</li>
+<li>非</li>
+<li>或</li>
+<li>与</li>
+<li>互斥</li>
+<li>包含</li>
+<li>唯一</li>
+<li>要求</li>
+<li>强制</li>
+</ul>
+</li>
+<li>将因果图转换为判定表</li>
+</ul>
+</li>
+<li>举例1ppt59页（某软件的规格说明书）</li>
+<li>举例2ppt64页</li>
+<li>举例3ppt66页（自动售货机）</li>
+<li>因果图的优点：<ul>
+<li>考虑到了输入情况的相互组合以及各种输入之间饿制约关系</li>
+<li>高效率地开发测试用例</li>
+<li>因果图法是将自然语言规格转换为形式语言规格的一种严格的转换方法，可以发现规格说明书中的不完整性和二义性</li>
+</ul>
+</li>
+</ul>
+<h4 id="正交试验法"><a href="#正交试验法" class="headerlink" title="正交试验法"></a>正交试验法</h4><ul>
+<li>当测试的组合变得很多时，用传统的测试方法工作量太大。因此使用正交试验法，从大量的数据中挑选出适量的、有代表性的点来进行测试</li>
+<li>正交试验的过程：<ul>
+<li>确定影响功能的因子与状态；</li>
+<li>选择一个合适的正交表；</li>
+<li>利用正交表构造测试数据；</li>
+</ul>
+</li>
+<li>举例1ppt85页（三条件员工信息查询）</li>
+</ul>
+<h3 id="基于逻辑覆盖的方法"><a href="#基于逻辑覆盖的方法" class="headerlink" title="基于逻辑覆盖的方法"></a>基于逻辑覆盖的方法</h3><h4 id="覆盖率"><a href="#覆盖率" class="headerlink" title="覆盖率"></a>覆盖率</h4><ul>
+<li>覆盖率是用来度量测试完整性的一个手段，是指==程序被一段测试用例所执行到的百分比==</li>
+<li>逻辑覆盖：以程序内部的逻辑结构为基础而设计测试用例</li>
+<li>点覆盖：语句覆盖、块覆盖</li>
+<li>边覆盖：路径覆盖、判定覆盖、条件覆盖、判定-条件覆盖、条件组合覆盖</li>
+</ul>
+<h4 id="语句覆盖与块覆盖"><a href="#语句覆盖与块覆盖" class="headerlink" title="语句覆盖与块覆盖"></a>语句覆盖与块覆盖</h4><ul>
+<li>语句覆盖：==设计若干测试用例，使每一条可执行的语句都被执行一次==</li>
+<li>块覆盖：指令块是指程序中的==一组语句==，该语句中==不包含控制语句（即不存在回产生分支的语句）==</li>
+<li>==语句覆盖是最弱的逻辑覆盖==</li>
+<li>可以很直观的从源代码中得到测试用例，但可能发现不了判定语句中所存在的运算错误。</li>
+</ul>
+<h4 id="判定覆盖"><a href="#判定覆盖" class="headerlink" title="判定覆盖"></a>判定覆盖</h4><ul>
+<li>设计若干测试用例，使得程序中的每一个分支语句都至少被执行一次</li>
+<li>==判定组合的取法不唯一==</li>
+<li>==判定覆盖一定满足语句覆盖==</li>
+<li>判定覆盖简单，比语句覆盖强点。但是同样会 出现对某一些内容测试不到的地方</li>
+</ul>
+<h4 id="条件覆盖"><a href="#条件覆盖" class="headerlink" title="条件覆盖"></a>条件覆盖</h4><ul>
+<li>设计若干测试用例，使得程序的每一个判断条件的==每一种可能的结果==都被执行一次</li>
+<li>==判定覆盖不一定包含条件覆盖，条件覆盖不一定包含判定覆盖==</li>
+<li>==条件覆盖只能保证每一个条件的所有情况会被执行一次，但是不考虑条件组合后的整体的所有情况都会被执行到==</li>
+</ul>
+<h4 id="判定-条件覆盖"><a href="#判定-条件覆盖" class="headerlink" title="判定-条件覆盖"></a>判定-条件覆盖</h4><ul>
+<li>设计若干测试用例，使得程序中的每一个判定语句都能被执行一次，且所有条件的所有取值也能被执行一次。</li>
+<li>覆盖率：（判定数量+条件数量）/（总的判定数量+总的条件数量）</li>
+<li>==同时满足了判定覆盖和条件覆盖，但是未考虑到条件组合的情况。==</li>
+</ul>
+<h4 id="条件组合覆盖"><a href="#条件组合覆盖" class="headerlink" title="条件组合覆盖"></a>条件组合覆盖</h4><ul>
+<li>设计若干测试用例，使得程序中的每一个判定的所有的条件组合都能被执行到</li>
+<li>条件组合总数：（2^每一个判定的条件数量）* 判定数量</li>
+<li>==对于条件组合覆盖，也会出现某一条路径没有被覆盖==</li>
+<li>测试用例的设计方式：<ul>
+<li>针对每一个判定部分，对该部分的条件进行排列组合</li>
+<li>将每一个判定部分的条件整合到一块儿，形成条件组合覆盖</li>
+<li>==不必纠结于条件组合没有满足某一条特定的测试语句，这仅仅只是条件组合，不是判定组合==</li>
+<li>条件组合覆盖准则满足判定覆盖、条件覆盖、判定-条件覆盖，但是同时相对的增加了测试用例的数量</li>
+</ul>
+</li>
+</ul>
+<h4 id="修改的条件组合覆盖"><a href="#修改的条件组合覆盖" class="headerlink" title="修改的条件组合覆盖"></a>修改的条件组合覆盖</h4><ul>
+<li>在每一个判定中，总会出现一些判定条件，它们的存在==不足以干涉最终的判定结果==，因此，可以将基于该条件设计的测试用例删除，以减少测试用例数量。</li>
+</ul>
+<h4 id="基本路径测试法"><a href="#基本路径测试法" class="headerlink" title="基本路径测试法"></a>基本路径测试法</h4><ul>
+<li>设计若干测试用例，使得所有的独立路径都至少执行一次</li>
+<li>条件组合覆盖不一定满足基本路径测试，修改后的基本路径测试则同样不一定满足条件组合覆盖</li>
+<li>嵌套型分支结构：<ul>
+<li>若有n个判断节点，则有n+1条不同的路径，需要n+1个测试用例</li>
+</ul>
+</li>
+<li>串联型分支结构：<ul>
+<li>若有n个判断节点，则有2^n个不同的路径，需要2^n个测试路径</li>
+<li>==最少的测试用例数量为2个==</li>
+</ul>
+</li>
+<li>圈复杂度的计算：<ul>
+<li>V（G） = 边数-节点数+2</li>
+<li>V（G） = 区域数</li>
+<li>V（G） = 判定节点数+1</li>
+<li>测试用例的数量 = 圈复杂度</li>
+</ul>
+</li>
+</ul>
+<h4 id="不存在十全十美的测试方法"><a href="#不存在十全十美的测试方法" class="headerlink" title="不存在十全十美的测试方法"></a>不存在十全十美的测试方法</h4><h4 id="采用任意一种测试方法都不能完全满足我们的需求"><a href="#采用任意一种测试方法都不能完全满足我们的需求" class="headerlink" title="采用任意一种测试方法都不能完全满足我们的需求"></a>采用任意一种测试方法都不能完全满足我们的需求</h4><h3 id="第三章测试习题"><a href="#第三章测试习题" class="headerlink" title="第三章测试习题"></a>第三章测试习题</h3><ul>
+<li>从方法论的角度而言，可以将软件测试分为（）：<ul>
+<li>黑盒测试和白盒测试</li>
+</ul>
+</li>
+<li>黑盒测试也称为功能测试，因为黑盒测试不能发现（）：<ul>
+<li>代码冗余</li>
+<li>黑盒测试无法发现代码内部的逻辑问题</li>
+</ul>
+</li>
+<li>黑盒测试一般是从（）的角度来验证软件功能；<ul>
+<li>用户</li>
+</ul>
+</li>
+<li>白盒测试可以进行穷举测试；<ul>
+<li>错</li>
+<li>没有什么测试可以进行穷举测试</li>
+</ul>
+</li>
+<li>与白盒测试相比，黑盒测试更容易测试覆盖率<ul>
+<li>错</li>
+</ul>
+</li>
+<li>当测试时间有限时，可以采用（）方法像客户那样做，对常用功能进行测试。<ul>
+<li>错误推断</li>
+</ul>
+</li>
+<li>等价类的划分属于（）：<ul>
+<li>基于输入域的方法</li>
+</ul>
+</li>
+<li>如对某计算器的假发功能进行测试，要求有效输入值在-999～999之间，可以划分出（）个等价类：<ul>
+<li>3个</li>
+</ul>
+</li>
+<li>输入完全满足规格说明书、且有意义的数据构成的集合，属于（）等价类；<ul>
+<li>有效</li>
+</ul>
+</li>
+<li>不满足程序规格说明书、无意义的数据构成的集合，属于（）等价类，通常用于对程序的（）进行测试：<ul>
+<li>无效。 容错性</li>
+</ul>
+</li>
+<li>为无效等价类设计测试用例时，要尽可能使每一个测试用例（）：<ul>
+<li>对应一个尚未被覆盖的无效等价类</li>
+</ul>
+</li>
+<li>边界值分析与等价类划分的关系：<ul>
+<li>边界值分析是对等价类划分的一种补充</li>
+</ul>
+</li>
+<li>某快递公司对1～10公斤的货物进行收费，采用边界值分析，可设计测试用例为（）：<ul>
+<li>0.99，1，10，10.01</li>
+</ul>
+</li>
+<li>对于16-bit的数，他的边界为（）：<ul>
+<li>-32768～32767</li>
+</ul>
+</li>
+<li>某程序输入一位大写字母作为输入，则其边界为（）：<ul>
+<li>@，A，Z，【</li>
+</ul>
+</li>
+<li>屏幕上光标的边界为（）：<ul>
+<li>左上，右下</li>
+</ul>
+</li>
+<li>当输入的变量与输出的结果内部有一定的逻辑关系时，只采用（）与（）是难以测试的，应该采用（）与（）方法：<ul>
+<li>等价类划分、边界值分析    判定表法、因果图法</li>
+</ul>
+</li>
+<li>判定表的构成有（）：<ul>
+<li>条件桩、动作桩、条件项、动作项、规则</li>
+</ul>
+</li>
+<li>某一个判定表，其条件桩一共有4个条件，则其规则数为（）：<ul>
+<li>16</li>
+</ul>
+</li>
+<li>关于判定表与因果图的关系是（）：<ul>
+<li>先出因果图，由因果图出判定表，由判定表出测试用例</li>
+</ul>
+</li>
+<li>不论and关系还是or关系，当进行判定覆盖时，无法通过判定结果确认该关系</li>
+<li>以下覆盖准则中，最强的是（）：<ul>
+<li>条件组合覆盖</li>
+</ul>
+</li>
+<li>若满足判定覆盖，则一定满足（）：<ul>
+<li>语句覆盖</li>
+</ul>
+</li>
+<li>达到100%的覆盖率，就能保证程序的正确性<ul>
+<li>错</li>
+</ul>
+</li>
+<li>==逻辑覆盖率可以作为测试完整性的一个度量，可以使得设计的测试用例更加具有针对性，可以对完成测试的系统建立信心==</li>
+</ul>
+<hr>
+<h2 id="第四章-软件测试流程与规范"><a href="#第四章-软件测试流程与规范" class="headerlink" title="第四章 软件测试流程与规范"></a>第四章 软件测试流程与规范</h2><h3 id="传统的软件测试过程"><a href="#传统的软件测试过程" class="headerlink" title="传统的软件测试过程"></a>传统的软件测试过程</h3><ul>
+<li>软件工程过程角度：需求评审-&gt;设计评审-&gt;单元与集成测试-&gt;系统测试-&gt;验收测试</li>
+<li>项目管理角度：测试计划-&gt;测试设计-&gt;执行与监控-&gt;结果分析与评估-&gt;项目总结</li>
+</ul>
+<h4 id="W模型："><a href="#W模型：" class="headerlink" title="W模型："></a>W模型：</h4><ul>
+<li>测试过程和开发过程是同时开始的，两者==保持同步==关系</li>
+</ul>
+<h4 id="TMap："><a href="#TMap：" class="headerlink" title="TMap："></a>TMap：</h4><ul>
+<li>测试管理方法</li>
+<li>业务驱动的、基于风险策略的、结构化的测试方法体系</li>
+<li>目的：更早地发现缺陷、以最小的成本、有效的、彻底的完成测试任务</li>
+<li>方法体系：<ul>
+<li>（L）与软件开发生命周期一致的测试活动生命周期</li>
+<li>（O）坚实的组织融合</li>
+<li>（I）正确的基础设施和工具</li>
+<li>（T）可用的技术</li>
+</ul>
+</li>
+</ul>
+<h3 id="敏捷测试过程"><a href="#敏捷测试过程" class="headerlink" title="敏捷测试过程"></a>敏捷测试过程</h3><h4 id="敏捷测试"><a href="#敏捷测试" class="headerlink" title="敏捷测试"></a>敏捷测试</h4><ul>
+<li>符合敏捷测试宣言的思想、遵守敏捷开发的原则，在敏捷开发环境下能够很好的和其整体开发流程融合的一系列测试实践</li>
+<li>深入敏捷宣言背后的原则ppt27页</li>
+</ul>
+<h4 id="敏捷测试的特征"><a href="#敏捷测试的特征" class="headerlink" title="敏捷测试的特征"></a>敏捷测试的特征</h4><ul>
+<li>测试驱动开发是敏捷测试的核心，单元测试是敏捷测试的基础</li>
+<li>与传统测试的区别：<ul>
+<li>强调团队合作</li>
+<li>强调持续的交付</li>
+<li>更关注产品的本身</li>
+<li>高度的自动化</li>
+</ul>
+</li>
+</ul>
+<h4 id="基于脚本的测试和探索式测试"><a href="#基于脚本的测试和探索式测试" class="headerlink" title="基于脚本的测试和探索式测试"></a>基于脚本的测试和探索式测试</h4><ul>
+<li>传统测试：流程决定结果</li>
+<li>现代测试：以人为本</li>
+<li>==探索式测试：没有测试用例，靠头脑想象，一边思考一边测试==</li>
+</ul>
+<h3 id="软件测试学派"><a href="#软件测试学派" class="headerlink" title="软件测试学派"></a>软件测试学派</h3><h4 id="分析学派"><a href="#分析学派" class="headerlink" title="分析学派"></a>分析学派</h4><h4 id="标准学派"><a href="#标准学派" class="headerlink" title="标准学派"></a>标准学派</h4><h4 id="质量学派"><a href="#质量学派" class="headerlink" title="质量学派"></a>质量学派</h4><h4 id="上下文驱动学派"><a href="#上下文驱动学派" class="headerlink" title="上下文驱动学派"></a>上下文驱动学派</h4><h4 id="敏捷学派"><a href="#敏捷学派" class="headerlink" title="敏捷学派"></a>敏捷学派</h4><h3 id="基于风险的测试策略"><a href="#基于风险的测试策略" class="headerlink" title="基于风险的测试策略"></a>基于风险的测试策略</h3><ul>
+<li>从质量风险的维度来看，软件测试是==对软件中潜在的各种风险进行评估的活动==</li>
+<li>基于风险的测试需要评估测试的优先级，先做高优先级的测试</li>
+</ul>
+<h3 id="软件测试规范"><a href="#软件测试规范" class="headerlink" title="软件测试规范"></a>软件测试规范</h3><ul>
+<li>对软件测试的流程过程化，并对每一个过程的元素进行明确的界定，形成完整的规范体系。</li>
+</ul>
+<hr>
+<h2 id="第五章-单元测试与集成测试"><a href="#第五章-单元测试与集成测试" class="headerlink" title="第五章 单元测试与集成测试"></a>第五章 单元测试与集成测试</h2><h3 id="单元测试的目标和任务"><a href="#单元测试的目标和任务" class="headerlink" title="单元测试的目标和任务"></a>单元测试的目标和任务</h3><ul>
+<li>对软件的基本组成单元进行独立的测试</li>
+</ul>
+<h4 id="单元测试的任务"><a href="#单元测试的任务" class="headerlink" title="单元测试的任务"></a>单元测试的任务</h4><ul>
+<li>单元独立执行路径测试</li>
+<li>局部数据结构测试</li>
+<li>单元接口测试</li>
+<li>单元边界条件测试</li>
+<li>单元容错测试</li>
+<li>内存分析</li>
+</ul>
+<h3 id="静态单元测试"><a href="#静态单元测试" class="headerlink" title="静态单元测试"></a>静态单元测试</h3><ul>
+<li>==不运行被测试程序，对代码通过检查、阅读进行分析==</li>
+<li>实施代码规范的原因：<ul>
+<li>可靠性</li>
+<li>可读性和可维护性</li>
+<li>可移植性</li>
+</ul>
+</li>
+</ul>
+<h4 id="编码的标准和规范"><a href="#编码的标准和规范" class="headerlink" title="编码的标准和规范"></a>编码的标准和规范</h4><h4 id="代码的静态检查工具"><a href="#代码的静态检查工具" class="headerlink" title="代码的静态检查工具"></a>代码的静态检查工具</h4><h4 id="代码评审"><a href="#代码评审" class="headerlink" title="代码评审"></a>代码评审</h4><ul>
+<li><p>走查</p>
+</li>
+<li><p>审查</p>
+</li>
+<li><p>检查要点：==代码的编写是否符合标准和规范，是否存在逻辑错误==</p>
+</li>
+</ul>
+<h3 id="动态单元测试"><a href="#动态单元测试" class="headerlink" title="动态单元测试"></a>动态单元测试</h3><ul>
+<li>动态测试需要真正将程序运行起来，需要设计系列的测试用例来保证测试的完整性和有效性</li>
+</ul>
+<h4 id="驱动程序和桩程序"><a href="#驱动程序和桩程序" class="headerlink" title="驱动程序和桩程序"></a>驱动程序和桩程序</h4><ul>
+<li>驱动程序：对底层模块进行测试时所编写的调用这些底层模块的程序</li>
+<li>桩程序：对顶层或上层模块进行测试时所编写的替代下层模块的程序</li>
+</ul>
+<h4 id="类测试"><a href="#类测试" class="headerlink" title="类测试"></a>类测试</h4><ul>
+<li>对类的单元测试可以看作是对其成员函数进行的测试</li>
+</ul>
+<h4 id="多态服务测试"><a href="#多态服务测试" class="headerlink" title="多态服务测试"></a>多态服务测试</h4><ul>
+<li>子类对父类中多态方法的覆盖应该保持==父类对该方法的规格说明==</li>
+</ul>
+<h4 id="展平测试"><a href="#展平测试" class="headerlink" title="展平测试"></a>展平测试</h4><ul>
+<li>在最复杂的情况下，只能对子类的测试采用展平测试的方法</li>
+<li>将子类定义的成员方法与成员变量以及从父类继承来的成员方法和成员变量全部放在一起组成一个新类</li>
+</ul>
+<h3 id="集成测试-1"><a href="#集成测试-1" class="headerlink" title="集成测试"></a>集成测试</h3><ul>
+<li><p>将已经分别通过测试的单元按照设计要求集成起来再进行测试，以检查这些单元接口是否存在问题</p>
+</li>
+<li><p>==集成测试无法对接口进行全面的测试==</p>
+</li>
+</ul>
+<h4 id="集成测试的模式"><a href="#集成测试的模式" class="headerlink" title="集成测试的模式"></a>集成测试的模式</h4><ul>
+<li>非渐增式测试模式<ul>
+<li>把所有的单元测试完成后，直接集成为一个大的系统来测试</li>
+<li>尽可能减少时间，使用最少的测试用例来测试系统</li>
+<li>容易出现一大堆错误且无法定位</li>
+</ul>
+</li>
+<li>渐增式测试模式<ul>
+<li>每测完某几个单元后，就将新的单元逐渐集成起来测试</li>
+</ul>
+</li>
+</ul>
+<h4 id="自顶向下和自底向上的集成方法"><a href="#自顶向下和自底向上的集成方法" class="headerlink" title="自顶向下和自底向上的集成方法"></a>自顶向下和自底向上的集成方法</h4><ul>
+<li>自顶向下法<ul>
+<li>参照系统层次结构图，按照与设计一样的顺序，从主控模块开始，按照软件设计的层次依次向下，按照深度优先或者广度优先的策略，依次把后续的模块结合起来，对各个模块一边组装一边进行测试。</li>
+<li>在测试的过程中，在主控模块下面编写桩程序，每向下推进一步，就用一个实际的模块替代一个桩模块，在结合下一个模块的时候同时进行==回归测试==</li>
+<li>优点：<ul>
+<li>不需要测试驱动程序</li>
+<li>能够早期实现并测试系统的主要功能</li>
+<li>能早期发现上层模块的接口错误</li>
+</ul>
+</li>
+<li>缺点：<ul>
+<li>需要桩程序</li>
+<li>下层模块的错误发现较晚</li>
+<li>不能充分展开人力（无法并发测试）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>自底向上法<ul>
+<li>从原子模块开始向上集成以开始测试</li>
+<li>把底层的几个原子模块组建为一个独立的功能，并编写其驱动程序来进行测试。接着需要用实际的程序来代替驱动程序，直到主控程序也进入测试范围。</li>
+<li>优点：<ul>
+<li>尽早验证底层模块的行为</li>
+<li>可以==并行测试和集成==</li>
+<li>减少了桩模块的工作量</li>
+<li>容易对错误进行定位</li>
+</ul>
+</li>
+<li>缺点：<ul>
+<li>对高层的验证被拖到了最后，==设计上的错误不能及时发现==</li>
+<li>随着逐渐集成到了上层，整个系统会变得越来越复杂，对底层的一些异常将很难覆盖</li>
+<li>驱动模块的设计工作量大</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="混合策略"><a href="#混合策略" class="headerlink" title="混合策略"></a>混合策略</h4><ul>
+<li>改进的自顶向下法：<ul>
+<li>基本使用自顶向下法，但是在测试的早期使用自底向上法测试少数关键模块</li>
+</ul>
+</li>
+<li>混合法（三明治集成法）：<ul>
+<li>将系统分为三层，上层系统自顶向下，下层系统自底向上，最后都在目标层会和</li>
+<li>优点：<ul>
+<li>集合了自顶向下和自底向上的优点</li>
+<li>减少编写桩程序</li>
+</ul>
+</li>
+<li>缺点：<ul>
+<li>在被集成之前，中间模块没有得到充分的测试</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h4><ul>
+<li>通常软件在开发过程中的进度是不一样的，因此对县完成的模块进行集成，尽早测试并发现bug，避免bug的集中大量出现。</li>
+</ul>
+<h3 id="第五章测试习题"><a href="#第五章测试习题" class="headerlink" title="第五章测试习题"></a>第五章测试习题</h3><ul>
+<li>单元测试主要采用（）的方法，包括对代码的评审、静态分析和结合测试工具进行动态测试。<ul>
+<li>白盒测试</li>
+</ul>
+</li>
+<li>运行被测单元时，为了隔离单元，根据被测单元的接口，需要开发相应的（）和（）：<ul>
+<li>驱动程序   桩程序</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第六章-系统测试"><a href="#第六章-系统测试" class="headerlink" title="第六章 系统测试"></a>第六章 系统测试</h2><h3 id="系统级功能测试"><a href="#系统级功能测试" class="headerlink" title="系统级功能测试"></a>系统级功能测试</h3><ul>
+<li>系统测试：将经过集成测试后的软件，作为计算机系统的一个部分，与计算机硬件、某些支持软件、数据和平台等系统元素结合起来，在==真实的运行环境下==，对计算机系统进行测试，保证系统正常工作。</li>
+<li>验证系统是否满足==功能性和非功能性==的需求</li>
+</ul>
+<h4 id="功能测试"><a href="#功能测试" class="headerlink" title="功能测试"></a>功能测试</h4><ul>
+<li><p>==需求是导向==</p>
+</li>
+<li><p>单元级功能测试：主要是测试系统的每一个独立模块的功能是正确的</p>
+</li>
+<li><p>集成过程中的功能测试：考虑模块之间的相互作用，而且考虑系统的应用环境，==实现产品规格说明书上所设计的功能</p>
+</li>
+<li><p>功能测试的要求：</p>
+<ul>
+<li>根据产品规格说明书，检验被测试的系统是否满足各方面功能的使用需求</li>
+<li>包括部分的系统安全性测试</li>
+<li>针对不同的环境进行测试</li>
+</ul>
+</li>
+</ul>
+<h4 id="非功能测试"><a href="#非功能测试" class="headerlink" title="非功能测试"></a>非功能测试</h4><ul>
+<li>压力测试</li>
+<li>容量测试</li>
+<li>性能测试</li>
+</ul>
+<h4 id="其他测试"><a href="#其他测试" class="headerlink" title="其他测试"></a>其他测试</h4><h3 id="回归测试"><a href="#回归测试" class="headerlink" title="回归测试"></a>回归测试</h3><ul>
+<li>发现缺陷需要进行修正时，会构造一个新的软件包，然后进行测试<ul>
+<li>验证被修复的软件的缺陷是否被修复了</li>
+<li>要保证之前所有的功能保持正常运行，不受这次修改的影响</li>
+</ul>
+</li>
+<li>回归缺陷：已发现的程序缺陷被修复了，而其他受影响的区域出现新的软件缺陷</li>
+<li>回归测试：为了发现回归缺陷而进行的测试</li>
+</ul>
+<h4 id="回归测试与软件生命周期"><a href="#回归测试与软件生命周期" class="headerlink" title="回归测试与软件生命周期"></a>回归测试与软件生命周期</h4><ul>
+<li>在软件开发的各个周期都需要进行多次回归测试</li>
+<li>在软件测试的各个阶段都需要进行多次回归测试</li>
+<li>在XP方法中，更是需要每天进行若干回测试</li>
+</ul>
+<h3 id="性能测试"><a href="#性能测试" class="headerlink" title="性能测试"></a>性能测试</h3><ul>
+<li><p>==性能测试是一种持续的测试和优化的过程==</p>
+</li>
+<li><p>常见问题：</p>
+<ul>
+<li>资源耗尽</li>
+<li>资源泄漏</li>
+<li>资源瓶颈</li>
+</ul>
+</li>
+<li><p>只有当系统真正集成起来之后，在真实的环境中才能全面、可靠地测试系统性能</p>
+</li>
+<li><p>为了发现系统性能问题或获取系统性能相关指标（运行速度、相应时间、资源使用率）而进行的测试</p>
+</li>
+</ul>
+<h4 id="系统性能指标"><a href="#系统性能指标" class="headerlink" title="系统性能指标"></a>系统性能指标</h4><ul>
+<li>性能指标：<ul>
+<li>系统资源的使用率</li>
+<li>系统行为表现</li>
+</ul>
+</li>
+<li>资源使用率<ul>
+<li>分析系统性能指标，改善系统性能的主要依据</li>
+</ul>
+</li>
+<li>系统行为<ul>
+<li>请求相应时间</li>
+<li>事务相应时间</li>
+<li>数据吞吐量</li>
+</ul>
+</li>
+</ul>
+<h4 id="性能测试类型"><a href="#性能测试类型" class="headerlink" title="性能测试类型"></a>性能测试类型</h4><ul>
+<li>性能验证测试</li>
+<li>性能基准测试</li>
+<li>性能规划测试</li>
+<li>容量测试</li>
+</ul>
+<h4 id="压力测试："><a href="#压力测试：" class="headerlink" title="压力测试："></a>压力测试：</h4><ul>
+<li>长时间高负载测试</li>
+<li>为了测试系统的稳定性或可靠性</li>
+</ul>
+<h4 id="负载测试："><a href="#负载测试：" class="headerlink" title="负载测试："></a>负载测试：</h4><ul>
+<li>性能测试的一种手段</li>
+</ul>
+<h4 id="渗入测试："><a href="#渗入测试：" class="headerlink" title="渗入测试："></a>渗入测试：</h4><ul>
+<li>通过长时间运行的负载测试，使用固定数量的用户测试系统的健壮性，使问题逐渐渗透出来。</li>
+</ul>
+<h4 id="峰谷测试："><a href="#峰谷测试：" class="headerlink" title="峰谷测试："></a>峰谷测试：</h4><ul>
+<li>采用负载忽高忽低的方式进行测试，从而测试系统的资源使用和释放是否正常。</li>
+</ul>
+<h4 id="系统负载及其模式："><a href="#系统负载及其模式：" class="headerlink" title="系统负载及其模式："></a>系统负载及其模式：</h4><ul>
+<li>系统负载可以看作：并发用户数量+思考时间+每次请求发送的数据量+负载模式</li>
+</ul>
+<h4 id="性能测试的过程："><a href="#性能测试的过程：" class="headerlink" title="性能测试的过程："></a>性能测试的过程：</h4><ul>
+<li>确定性能测试需求</li>
+<li>开发测试脚本</li>
+<li>建立性能测试负载模型</li>
+<li>执行性能测试</li>
+<li>提交性能测试报告</li>
+</ul>
+<h4 id="性能指标"><a href="#性能指标" class="headerlink" title="性能指标"></a>性能指标</h4><ul>
+<li>响应时间是用户的关注点</li>
+<li>容量和数据吞吐量是业务处理方面的关注点</li>
+<li>系统资源占用率是开发团队的技术关注点</li>
+</ul>
+<h3 id="其他常用的系统测试技术"><a href="#其他常用的系统测试技术" class="headerlink" title="其他常用的系统测试技术"></a>其他常用的系统测试技术</h3><ul>
+<li>安全性测试</li>
+<li>容错性测试</li>
+<li>兼容性测试</li>
+<li>可靠性测试</li>
+</ul>
+<hr>
+<h2 id="第七章-验收测试"><a href="#第七章-验收测试" class="headerlink" title="第七章 验收测试"></a>第七章 验收测试</h2><h3 id="验收测试过程"><a href="#验收测试过程" class="headerlink" title="验收测试过程"></a>验收测试过程</h3><ul>
+<li>在软件产品完成功能测试和非功能测试之后，产品发布之前所进行的测试活动，也称作是交付测试</li>
+</ul>
+<h3 id="产品规格说明书的验证"><a href="#产品规格说明书的验证" class="headerlink" title="产品规格说明书的验证"></a>产品规格说明书的验证</h3><h3 id="用户界面和可用性测试"><a href="#用户界面和可用性测试" class="headerlink" title="用户界面和可用性测试"></a>用户界面和可用性测试</h3><h3 id="安装测试和可恢复性测试"><a href="#安装测试和可恢复性测试" class="headerlink" title="安装测试和可恢复性测试"></a>安装测试和可恢复性测试</h3><hr>
+<h2 id="第八章-测试自动化及其框架"><a href="#第八章-测试自动化及其框架" class="headerlink" title="第八章 测试自动化及其框架"></a>第八章 测试自动化及其框架</h2><h3 id="测试自动化的内涵"><a href="#测试自动化的内涵" class="headerlink" title="测试自动化的内涵"></a>测试自动化的内涵</h3><h3 id="测试自动化实现的原理"><a href="#测试自动化实现的原理" class="headerlink" title="测试自动化实现的原理"></a>测试自动化实现的原理</h3><h3 id="测试自动化的实施"><a href="#测试自动化的实施" class="headerlink" title="测试自动化的实施"></a>测试自动化的实施</h3>
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/01/02/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E5%A4%A7%E7%BA%B2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/02/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%B0%8F%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2021-01-02T10:20:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-02</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2021/01/02/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%B0%8F%E6%B5%8B%E8%AF%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第二个小测试</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/02/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%B0%8F%E6%B5%8B%E8%AF%95/">第二个小测试</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/02/%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2021-01-02T10:09:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/02/%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%B5%8B%E8%AF%95/">一个小测试</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2021-01-02T07:20:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章！</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/02/hello-world/" class="archive-article-date">
-  	<time datetime="2021-01-02T07:12:35.567Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/02/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -323,8 +1204,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
